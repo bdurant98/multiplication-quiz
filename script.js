@@ -71,6 +71,10 @@ function initGame() {
     }
 }
 
+
+/**
+ * clearQuestion clears out the question that is present in the box currently before it is refilled by populateQuestion
+ */
 function clearQuestion() {
     $('.quiz-content').empty();
 }
